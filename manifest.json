@@ -1,0 +1,29 @@
+{
+  "name": "هشدار باتری",
+  "short_name": "باتری",
+  "description": "پایش هوشمند شارژ باتری با هشدار",
+  "start_url": "/battery/index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#00e5ff",
+  "orientation": "portrait",
+  "lang": "fa",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities"],
+  "shortcuts": [
+    {
+      "name": "شروع پایش",
+      "short_name": "پایش",
+      "description": "شروع سریع پایش باتری",
+      "url": "/battery/index.html"
+    }
+  ]
+}
